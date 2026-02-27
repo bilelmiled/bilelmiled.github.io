@@ -244,6 +244,31 @@ article.active {
   padding-bottom: 7px;
 }
 
+.portfolio-btn {
+  /* Colors & Background */
+  background-color: #1a1a1a; /* Dark sleek background */
+  color: #ffffff;            /* White text */
+  border: 2px solid #FFD065; /* Indigo border */
+  
+  /* Sizing & Shape */
+  padding: 12px 28px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 5px;        /* Slightly rounded */
+  
+  /* Interaction */
+  cursor: pointer;
+  transition: all 0.3s ease; /* Makes changes smooth */
+  outline: none;
+}
+
+/* Effects when you hover your mouse over it */
+.portfolio-btn:hover {
+  background-color: #FFD065; /* Fills with color */
+  color: white;
+  box-shadow: 0 0 15px rgba(99, 102, 241, 0.6); /* Soft glow */
+  transform: scale(1.05);    /* Slightly grows in size */
+}
 .article-title::after {
   content: "";
   position: absolute;
@@ -1082,6 +1107,9 @@ main {
   height: 100%;
   object-fit: cover;
   transition: var(--transition-1);
+}
+strong, b {
+  font-weight: bold !important;
 }
 
 .blog-post-item > a:hover .blog-banner-box img { transform: scale(1.1); }
