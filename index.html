@@ -1,827 +1,869 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BilelMiled - Personal Portfolio</title>
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>BilelMiled - Personal Portfolio</title>
-
-  <!--
+    <!--
     - favicon
   -->
-  <link rel="shortcut icon" href="./assets/images/bilel3.png" type="image/x-icon">
+    <link
+      rel="shortcut icon"
+      href="./assets/images/bilel3.png"
+      type="image/x-icon"
+    />
 
-  <!--
+    <!--
     - custom css link
   -->
-  <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/style.css" />
 
-  <!--
+    <!--
     - google font link
   -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
-</head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-<body>
-
-  <!--
+  <body>
+    <!--
     - #MAIN
   -->
 
-  <main>
-
-    <!--
+    <main>
+      <!--
       - #SIDEBAR
     -->
 
-    <aside class="sidebar" data-sidebar>
+      <aside class="sidebar" data-sidebar>
+        <div class="sidebar-info">
+          <figure class="avatar-box">
+            <img
+              src="./assets/images/bilel3.png"
+              alt="Bilel Miled"
+              width="80"
+            />
+          </figure>
 
-      <div class="sidebar-info">
+          <div class="info-content">
+            <h1 class="name" title="Bilel Miled">Bilel Miled</h1>
 
-        <figure class="avatar-box">
-          <img src="./assets/images/bilel3.png" alt="Bilel Miled" width="80">
-        </figure>
+            <p class="title">Mobile developer</p>
 
-        <div class="info-content">
-          <h1 class="name" title="Bilel Miled">Bilel Miled</h1>
+            <br />
+            <p class="title">Web developer</p>
+            <br />
+            <p class="title">Game developer</p>
+            <br />
+            <a
+              href="https://docs.google.com/presentation/d/1u1H0lbySumRNgehqS9A3KBYYVBaTlBk-ohdxoD5b6uU/edit?usp=sharing"
+            >
+              <button class="portfolio-btn">Game dev Portfolio</button>
+            </a>
+          </div>
 
-          <p class="title">Mobile developer</p>
-         
-           <br>
-          <p class="title">Web developer</p> <br>
-          <p class="title">Game developer</p> <br>
-          <a href="https://docs.google.com/presentation/d/1u1H0lbySumRNgehqS9A3KBYYVBaTlBk-ohdxoD5b6uU/edit?usp=sharing">
-            <button class="portfolio-btn" >Game dev Portfolio</button>
-          </a>
+          <button class="info_more-btn" data-sidebar-btn>
+            <span>Show Contacts</span>
+
+            <ion-icon name="chevron-down"></ion-icon>
+          </button>
         </div>
 
-        <button class="info_more-btn" data-sidebar-btn>
-          <span>Show Contacts</span>
+        <div class="sidebar-info_more">
+          <div class="separator"></div>
 
-          <ion-icon name="chevron-down"></ion-icon>
-        </button>
+          <ul class="contacts-list">
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="mail-outline"></ion-icon>
+              </div>
 
-      </div>
+              <div class="contact-info">
+                <p class="contact-title">Email</p>
 
-      <div class="sidebar-info_more">
+                <a href="mailto:bilel.miiled@gmail.com" class="contact-link"
+                  >bilel.miiled@gmail.com</a
+                >
+              </div>
+            </li>
 
-        <div class="separator"></div>
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="phone-portrait-outline"></ion-icon>
+              </div>
 
-        <ul class="contacts-list">
+              <div class="contact-info">
+                <p class="contact-title">Phone</p>
 
-          <li class="contact-item">
+                <a href="tel:+21623833995" class="contact-link"
+                  >+216 23 833 995</a
+                >
+              </div>
+            </li>
 
-            <div class="icon-box">
-              <ion-icon name="mail-outline"></ion-icon>
-            </div>
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="calendar-outline"></ion-icon>
+              </div>
 
-            <div class="contact-info">
-              <p class="contact-title">Email</p>
+              <div class="contact-info">
+                <p class="contact-title">Birthday</p>
 
-              <a href="mailto:bilel.miiled@gmail.com" class="contact-link">bilel.miiled@gmail.com</a>
-            </div>
+                <time datetime="1982-06-23">June 07, 1996</time>
+              </div>
+            </li>
 
-          </li>
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="location-outline"></ion-icon>
+              </div>
 
-          <li class="contact-item">
+              <div class="contact-info">
+                <p class="contact-title">Location</p>
 
-            <div class="icon-box">
-              <ion-icon name="phone-portrait-outline"></ion-icon>
-            </div>
+                <address>Ariana, Tunis, Tunisia</address>
+              </div>
+            </li>
+          </ul>
 
-            <div class="contact-info">
-              <p class="contact-title">Phone</p>
+          <div class="separator"></div>
+        </div>
+      </aside>
 
-              <a href="tel:+21623833995" class="contact-link">+216 23 833 995</a>
-            </div>
-
-          </li>
-
-          <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="calendar-outline"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-              <p class="contact-title">Birthday</p>
-
-              <time datetime="1982-06-23">June 07, 1996</time>
-            </div>
-
-          </li>
-
-          <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="location-outline"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-              <p class="contact-title">Location</p>
-
-              <address>Ariana, Tunis, Tunisia</address>
-            </div>
-
-          </li>
-
-        </ul>
-
-        <div class="separator"></div>
-
-
-
-      </div>
-
-    </aside>
-
-
-
-
-
-    <!--
+      <!--
       - #main-content
     -->
 
-    <div class="main-content">
-
-      <!--
+      <div class="main-content">
+        <!--
         - #NAVBAR
       -->
 
-      <nav class="navbar">
+        <nav class="navbar">
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <button class="navbar-link active" data-nav-link>About</button>
+            </li>
 
-        <ul class="navbar-list">
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Resume</button>
+            </li>
 
-          <li class="navbar-item">
-            <button class="navbar-link  active" data-nav-link>About</button>
-          </li>
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Portfolio</button>
+            </li>
 
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Resume</button>
-          </li>
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Credentials</button>
+            </li>
+          </ul>
+        </nav>
 
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Portfolio</button>
-          </li>
-
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Credentials</button>
-          </li>
-
-         
-
-        </ul>
-
-      </nav>
-
-
-
-
-
-      <!--
+        <!--
         - #ABOUT
       -->
 
-      <article class="about  active" data-page="about">
+        <article class="about active" data-page="about">
+          <header>
+            <h2 class="h2 article-title">About me</h2>
+          </header>
 
-        <header>
-          <h2 class="h2 article-title">About me</h2>
-        </header>
+          <section class="about-text">
+            <p>
+              I am a Full-Stack Developer with strong experience in
+              <strong>React</strong> for frontend development and
+              <strong>Flutter</strong> for mobile application development, as
+              well as Node.js / Express.js for backend systems. I also have 4
+              years of self-taught experience in game development.
+            </p>
 
-        <section class="about-text">
-          <p>
-           I am a Full-Stack Developer with strong experience in <strong>React</strong>  for frontend development and <strong>Flutter</strong> for mobile application development, as well as  Node.js / Express.js for backend systems. I also have 4 years of self-taught experience in game development.
-          </p>
+            <p>
+              I design and develop modern frontend applications using React, as
+              well as cross-platform mobile applications using Flutter, focusing
+              on clean architecture, performance, and maintainable code. On the
+              backend, I build RESTful APIs with Node.js and Express.js,
+              handling authentication, business logic, and database management.
+              Thanks to my experience in game development, I approach
+              applications with a UX-focused mindset, ensuring intuitive
+              interactions and smooth experiences. This, combined with my
+              technical expertise, allows me to deliver complete products from
+              concept and architecture to deployment and optimization.
+            </p>
+          </section>
 
-          <p>
-           I design and develop modern frontend applications using React, as well as cross-platform mobile applications using Flutter, focusing on clean architecture, performance, and maintainable code. On the backend, I build RESTful APIs with Node.js and Express.js, handling authentication, business logic, and database management.
-
-Thanks to my experience in game development, I approach applications with a UX-focused mindset, ensuring intuitive interactions and smooth experiences. This, combined with my technical expertise, allows me to deliver complete products from concept and architecture to deployment and optimization.
-          </p>
-        </section>
-
-
-        <!--
+          <!--
           - service
         -->
 
-        <section class="service">
+          <section class="service">
+            <h3 class="h3 service-title">What i'm doing</h3>
 
-          <h3 class="h3 service-title">What i'm doing</h3>
+            <ul class="service-list">
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/pro.png"
+                    alt="web development"
+                    width="40"
+                  />
+                </div>
 
-          <ul class="service-list">
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Web development</h4>
 
+                  <p class="service-item-text">
+                    Building scalable web applications with React and Next.js
+                  </p>
+                </div>
+              </li>
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/icon-app.svg"
+                    alt="mobile development"
+                    width="40"
+                  />
+                </div>
 
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Mobile development</h4>
 
+                  <p class="service-item-text">
+                    Cross-platform mobile applications using Flutter.
+                  </p>
+                </div>
+              </li>
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/server.svg"
+                    alt="backend development"
+                    width="40"
+                  />
+                </div>
 
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Backend development</h4>
+                  <p class="service-item-text">
+                    Building robust and scalable server-side solutions with
+                    Node.js, Express.js, and MongoDB to ensure efficient data
+                    handling and seamless performance.
+                  </p>
+                </div>
+              </li>
 
-            <li class="service-item">
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/game.svg"
+                    alt="Game development"
+                    width="40"
+                  />
+                </div>
 
-              <div class="service-icon-box">
-                <img src="./assets/images/pro.png" alt="web development" width="40">
-              </div>
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Game development</h4>
 
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Web development</h4>
+                  <p class="service-item-text">
+                    Video game development using Unity and C#.
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </section>
 
-                <p class="service-item-text">
-                  Building scalable web applications with React and Next.js 
-                </p>
-              </div>
-
-            </li>
-             <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-app.svg" alt="mobile development" width="40">
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Mobile development</h4>
-
-                <p class="service-item-text">
-                  Cross-platform mobile applications using Flutter.
-                </p>
-              </div>
-
-            </li>
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/server.svg" alt="backend development" width="40">
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Backend development</h4>
-                <p class="service-item-text">
-                  Building robust and scalable server-side solutions with Node.js, Express.js, and MongoDB to ensure
-                  efficient data handling and seamless performance. </p>
-              </div>
-
-            </li>
-
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/game.svg" alt="Game development" width="40">
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Game development</h4>
-
-                <p class="service-item-text">
-                  Video game development using Unity and C#.
-                </p>
-              </div>
-
-            </li>
-
-          </ul>
-
-        </section>
-
-
-        <!--
+          <!--
           - testimonials
         -->
 
-
-
-
-        <!--
+          <!--
           - testimonials modal
         -->
 
-        <div class="modal-container" data-modal-container>
+          <div class="modal-container" data-modal-container>
+            <div class="overlay" data-overlay></div>
 
-          <div class="overlay" data-overlay></div>
+            <section class="testimonials-modal">
+              <button class="modal-close-btn" data-modal-close-btn>
+                <ion-icon name="close-outline"></ion-icon>
+              </button>
+            </section>
+          </div>
 
-          <section class="testimonials-modal">
-
-            <button class="modal-close-btn" data-modal-close-btn>
-              <ion-icon name="close-outline"></ion-icon>
-            </button>
-
-
-
-
-
-          </section>
-
-        </div>
-
+          <!--
+          - clients
+        --></article>
 
         <!--
-          - clients
-        -->
-
-
-      </article>
-
-
-
-
-
-      <!--
         - #RESUME
       -->
 
-      <article class="resume" data-page="resume">
+        <article class="resume" data-page="resume">
+          <header>
+            <h2 class="h2 article-title">Resume</h2>
+          </header>
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <img
+                  src="./assets/images/job.svg"
+                  alt="Game development"
+                  width="20"
+                />
+              </div>
 
-        <header>
-          <h2 class="h2 article-title">Resume</h2>
-        </header>
-        <section class="timeline">
-
-          <div class="title-wrapper">
-            <div class="icon-box">
-              <img src="./assets/images/job.svg" alt="Game development" width="20">
-
+              <h3 class="h3">Experience</h3>
             </div>
 
-            <h3 class="h3">Experience</h3>
-          </div>
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Flutter developer intern</h4>
+                <h5 style="color: #ffffff">IT Gate</h5>
+                <span>SEP 2025 — OCT 2025</span>
 
-          <ol class="timeline-list">
+                <p class="timeline-text">
+                  <span class="bullet"
+                    >• Design, UX, and development of a job platform application
+                    allowing companies to create and manage job offers and
+                    candidate applications.</span
+                  >
+                </p>
+                <p class="timeline-text">
+                  <span class="bullet"
+                    >• Implementation of a user-friendly interface enabling job
+                    seekers to browse and apply for available positions
+                    easily.</span
+                  >
+                </p>
+                <p class="timeline-text">
+                  <span class="bullet"
+                    >• Development of the backend using Express.js and MongoDB,
+                    managing data storage, authentication, and communication
+                    between the client and server.</span
+                  >
+                </p>
+              </li>
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Game Developer</h4>
+                <h5 style="color: #ffffff">Lucky7 studios</h5>
+                <span>NOV 2024 — SEP 2025</span>
 
-            <li class="timeline-item">
+                <p class="timeline-text">
+                  <span class="bullet"
+                    >• Developed and implemented core gameplay mechanics using
+                    Unity and C#.</span
+                  >
+                </p>
+                <p class="timeline-text">
+                  <span class="bullet"
+                    >• Worked closely with artists to integrate assets into the
+                    game, ensuring visual consistency and technical feasibility.
+                  </span>
+                </p>
+                <p class="timeline-text">
+                  <span class="bullet"
+                    >•Ensured smooth and engaging player interactions through
+                    efficient scripting and logic.
+                  </span>
+                </p>
+              </li>
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Game Developer</h4>
+                <h5 style="color: #ffffff">Herodot Studio</h5>
+                <span>DEC 2021 — SEP 2024</span>
 
-              <h4 class="h4 timeline-item-title">Flutter developer intern</h4>
-              <h5 style="color: #ffffff;">IT Gate</h5>
-              <span>SEP 2025 — OCT 2025</span>
+                <p class="timeline-text">
+                  <span class="bullet"
+                    >• Design, development, and maintenance of video games.
+                  </span>
+                </p>
+                <p class="timeline-text">
+                  <span class="bullet"
+                    >• Collaboration with a multidisciplinary team of designers,
+                    artists, and engineers.
+                  </span>
+                </p>
+                <p class="timeline-text">
+                  <span class="bullet"
+                    >• Debugging and ensuring performance optimization across
+                    various platforms.</span
+                  >
+                </p>
+                <p class="timeline-text">
+                  <span class="bullet"
+                    >• Used Git for version control and Asana for project
+                    management and task tracking.
+                  </span>
+                </p>
+              </li>
 
-              <p class="timeline-text">
-                <span class="bullet">• Design, UX, and development of a job platform application allowing companies to
-                  create and manage job offers and candidate applications.</span>
-              </p>
-              <p class="timeline-text">
-                <span class="bullet">• Implementation of a user-friendly interface enabling job seekers to browse and
-                  apply for available positions easily.</span>
-              </p>
-              <p class="timeline-text">
-                <span class="bullet">• Development of the backend using Express.js and MongoDB, managing data storage,
-                  authentication, and communication between the client and server.</span>
-              </p>
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Game Instructor</h4>
+                <h5 style="color: #ffffff">Go My Code</h5>
+                <span>JUN 2019 — NOV 2020</span>
 
+                <p class="timeline-text">
+                  <span class="bullet"
+                    >• Teaching game development fundamentals unity and C# to
+                    students from various ages , and helping them to achieve a
+                    level of knowledge that allows them to create a game with
+                    unity and C# and finally uploading their projects on GIT.
+                  </span>
+                </p>
+              </li>
+            </ol>
+          </section>
 
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <img
+                  src="./assets/images/certif.svg"
+                  alt="Game development"
+                  width="20"
+                />
+              </div>
 
-
-            </li>
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Game Developer</h4>
-              <h5 style="color: #ffffff;">Lucky7 studios </h5>
-              <span>NOV 2024 — SEP 2025</span>
-
-              <p class="timeline-text">
-                <span class="bullet">• Developed and implemented core gameplay mechanics using Unity and C#.</span>
-              </p>
-              <p class="timeline-text">
-                <span class="bullet">• Worked closely with artists to integrate assets into the game, ensuring visual
-                  consistency and technical
-                  feasibility. </span>
-              </p>
-              <p class="timeline-text">
-                <span class="bullet">•Ensured smooth and engaging player interactions through efficient scripting and
-                  logic. </span>
-              </p>
-
-
-
-
-            </li>
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Game Developer</h4>
-              <h5 style="color: #ffffff;">Herodot Studio</h5>
-              <span>DEC 2021 — SEP 2024</span>
-
-              <p class="timeline-text">
-                <span class="bullet">• Design, development, and maintenance of video games. </span>
-              </p>
-              <p class="timeline-text">
-                <span class="bullet">• Collaboration with a multidisciplinary team of designers, artists, and engineers.
-                </span>
-              </p>
-              <p class="timeline-text">
-                <span class="bullet">• Debugging and ensuring performance optimization across various platforms.</span>
-              </p>
-              <p class="timeline-text">
-                <span class="bullet">• Used Git for version control and Asana for project management and task tracking.
-                </span>
-              </p>
-
-
-
-
-            </li>
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Game Instructor</h4>
-              <h5 style="color: #ffffff;">Go My Code</h5>
-              <span>JUN 2019 — NOV 2020</span>
-
-              <p class="timeline-text">
-                <span class="bullet">• Teaching game development fundamentals unity and C# to students from various ages
-                  , and helping them to achieve a level of knowledge that allows them to create a game with unity and C#
-                  and finally uploading their projects on GIT. </span>
-              </p>
-
-
-
-
-
-            </li>
-
-
-
-
-
-          </ol>
-
-        </section>
-
-        <section class="timeline">
-
-          <div class="title-wrapper">
-            <div class="icon-box">
-              <img src="./assets/images/certif.svg" alt="Game development" width="20">
-
+              <h3 class="h3">Certifications</h3>
             </div>
 
-            <h3 class="h3">Certifications</h3>
-          </div>
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">React.js Development</h4>
+                <h5 style="color: #ffffff">Udemy</h5>
+                <span>FEB 2025</span>
 
-          <ol class="timeline-list">
+                <p class="timeline-text">
+                  <span class="bullet"
+                    >• Completed an in-depth training in React.js including
+                    Hooks, Context API, and advanced component patterns.</span
+                  >
+                </p>
+                <p class="timeline-text">
+                  <span class="bullet"
+                    >• Built modern web applications using Next.js with
+                    server-side rendering and routing.</span
+                  >
+                </p>
+                <p class="timeline-text">
+                  <span class="bullet"
+                    >• Implemented global state management using Redux.</span
+                  >
+                </p>
+                <p class="timeline-text">
+                  <span class="bullet"
+                    >• Developed scalable and type-safe applications using
+                    TypeScript.</span
+                  >
+                </p>
+                <p class="timeline-text">
+                  <span class="bullet"
+                    >• Applied performance optimization techniques and best
+                    practices for clean and maintainable architecture.</span
+                  >
+                </p>
+              </li>
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Flutter Development</h4>
+                <h5 style="color: #ffffff">Udemy</h5>
+                <span>JUN 2025</span>
 
-            <li class="timeline-item">
+                <p class="timeline-text">
+                  <span class="bullet"
+                    >• Built cross-platform mobile applications using Flutter
+                    and Dart.
+                  </span>
+                </p>
+                <p class="timeline-text">
+                  <span class="bullet"
+                    >• Learned best practices in UI design and app performance
+                    optimization.</span
+                  >
+                </p>
+                <p class="timeline-text">
+                  <span class="bullet"
+                    >• Discovered and applied state management with
+                    Riverpod.</span
+                  >
+                </p>
+              </li>
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  FullStack Mobile Development (Flutter + Node.js & Express)
+                </h4>
+                <h5 style="color: #ffffff">JobGate</h5>
+                <span>AUG 2025 </span>
 
-              <h4 class="h4 timeline-item-title">React.js Development</h4>
-              <h5 style="color: #ffffff;">Udemy</h5>
-              <span>FEB 2025</span>
+                <p class="timeline-text">
+                  <span class="bullet"
+                    >• Developed mobile applications with Flutter (frontend)
+                    connected to a Node.js & Express backend</span
+                  >
+                </p>
+                <p class="timeline-text">
+                  <span class="bullet"
+                    >• Designed and consumed REST APIs for communication between
+                    mobile apps and backend services.
+                  </span>
+                </p>
+                <p class="timeline-text">
+                  <span class="bullet"
+                    >• Implemented authentication, data storage, and team
+                    collaboration features to simulate real-world projects.
+                  </span>
+                </p>
+                <p class="timeline-text">
+                  <span class="bullet"
+                    >• Applied state management with GetX to handle navigation,
+                    data flow, and app scalability.
+                  </span>
+                </p>
+              </li>
+            </ol>
+          </section>
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
 
-            <p class="timeline-text">
-  <span class="bullet">• Completed an in-depth training in React.js including Hooks, Context API, and advanced component patterns.</span>
-</p>
-<p class="timeline-text">
-  <span class="bullet">• Built modern web applications using Next.js with server-side rendering and routing.</span>
-</p>
-<p class="timeline-text">
-  <span class="bullet">• Implemented global state management using Redux.</span>
-</p>
-<p class="timeline-text">
-  <span class="bullet">• Developed scalable and type-safe applications using TypeScript.</span>
-</p>
-<p class="timeline-text">
-  <span class="bullet">• Applied performance optimization techniques and best practices for clean and maintainable architecture.</span>
-</p>
-
-
-
-
-            </li>
-             <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Flutter Development</h4>
-              <h5 style="color: #ffffff;">Udemy</h5>
-              <span>JUN 2025</span>
-
-              <p class="timeline-text">
-                <span class="bullet">• Built cross-platform mobile applications using Flutter and Dart. </span>
-              </p>
-              <p class="timeline-text">
-                <span class="bullet">• Learned best practices in UI design and app performance optimization.</span>
-              </p>
-              <p class="timeline-text">
-                <span class="bullet">• Discovered and applied state management with Riverpod.</span>
-              </p>
-
-
-
-
-            </li>
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">FullStack Mobile Development (Flutter + Node.js & Express)</h4>
-              <h5 style="color: #ffffff;">JobGate </h5>
-              <span>AUG 2025 </span>
-
-              <p class="timeline-text">
-                <span class="bullet">• Developed mobile applications with Flutter (frontend) connected to a Node.js &
-                  Express backend</span>
-              </p>
-              <p class="timeline-text">
-                <span class="bullet">• Designed and consumed REST APIs for communication between mobile apps and backend
-                  services. </span>
-              </p>
-              <p class="timeline-text">
-                <span class="bullet">• Implemented authentication, data storage, and team collaboration features to
-                  simulate real-world
-                  projects. </span>
-              </p>
-              <p class="timeline-text">
-                <span class="bullet">• Applied state management with GetX to handle navigation, data flow, and app
-                  scalability. </span>
-              </p>
-
-
-
-
-            </li>
-
-
-
-
-
-
-          </ol>
-
-        </section>
-        <section class="timeline">
-
-          <div class="title-wrapper">
-            <div class="icon-box">
-              <ion-icon name="book-outline"></ion-icon>
+              <h3 class="h3">Education</h3>
             </div>
 
-            <h3 class="h3">Education</h3>
-          </div>
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Private Higher School of Engineering and Technology (ESPRIT)
+                </h4>
 
-          <ol class="timeline-list">
+                <span>2015 — 2021</span>
 
-            <li class="timeline-item">
+                <p class="timeline-text">Diploma in Computer Science</p>
+              </li>
 
-              <h4 class="h4 timeline-item-title">Private Higher School of Engineering and Technology (ESPRIT) </h4>
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Ennaser High School</h4>
 
-              <span>2015 — 2021</span>
+                <span>2011 — 2015</span>
 
-              <p class="timeline-text">
-                Diploma in Computer Science
-              </p>
+                <p class="timeline-text">
+                  Scientific Baccalaureate Mathematics Section
+                </p>
+              </li>
+            </ol>
+          </section>
+        </article>
 
-            </li>
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Ennaser High School</h4>
-
-              <span>2011 — 2015</span>
-
-              <p class="timeline-text">
-                Scientific Baccalaureate Mathematics Section
-
-              </p>
-
-            </li>
-
-
-
-          </ol>
-
-        </section>
-
-
-
-
-
-      </article>
-
-
-
-
-
-      <!--
+        <!--
         - #PORTFOLIO
       -->
 
-      <article class="portfolio" data-page="portfolio">
+        <article class="portfolio" data-page="portfolio">
+          <header>
+            <h2 class="h2 article-title">Portfolio</h2>
+          </header>
 
-        <header>
-          <h2 class="h2 article-title">Portfolio</h2>
-        </header>
-
-        <section class="projects">
-
-          <ul class="filter-list">
-
-            <li class="filter-item">
-              <button class="active" data-filter-btn>All</button>
-            </li>
-
-            <li class="filter-item">
-              <button data-filter-btn>Mobile app</button>
-            </li>
-
-            <li class="filter-item">
-              <button data-filter-btn>Web development</button>
-            </li>
-
-
-
-          </ul>
-
-          <div class="filter-select-box">
-
-            <button class="filter-select" data-select>
-
-              <div class="select-value" data-selecct-value>Select category</div>
-
-              <div class="select-icon">
-                <ion-icon name="chevron-down"></ion-icon>
-              </div>
-
-            </button>
-
-            <ul class="select-list">
-
-              <li class="select-item">
-                <button data-select-item>All</button>
+          <section class="projects">
+            <ul class="filter-list">
+              <li class="filter-item">
+                <button class="active" data-filter-btn>All</button>
               </li>
 
-              <li class="select-item">
-                <button data-select-item>Mobile app</button>
+              <li class="filter-item">
+                <button data-filter-btn>Mobile app</button>
               </li>
 
-              <li class="select-item">
-                <button data-select-item>Web development</button>
+              <li class="filter-item">
+                <button data-filter-btn>Web development</button>
               </li>
-
-
-
             </ul>
 
-          </div>
+            <div class="filter-select-box">
+              <button class="filter-select" data-select>
+                <div class="select-value" data-selecct-value>
+                  Select category
+                </div>
 
-          <ul class="project-list">
-             <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="https://github.com/bilelmiled/FoodOrderReact" target="_blank" rel="noopener noreferrer">
+                <div class="select-icon">
+                  <ion-icon name="chevron-down"></ion-icon>
+                </div>
+              </button>
 
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
+              <ul class="select-list">
+                <li class="select-item">
+                  <button data-select-item>All</button>
+                </li>
 
-                  <img src="./assets/images/Food.PNG" alt="expense" loading="lazy">
-                </figure>
+                <li class="select-item">
+                  <button data-select-item>Mobile app</button>
+                </li>
 
-                <h3 class="project-title">Food Order</h3>
+                <li class="select-item">
+                  <button data-select-item>Web development</button>
+                </li>
+              </ul>
+            </div>
 
-                <p class="project-category">Web Development</p>
+            <ul class="project-list">
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web development"
+              >
+                <a
+                  href="https://github.com/bilelmiled/PadelMarketPlace"
+                  target="_blank"
+                >
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
 
-              </a>
-            </li>
-             <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="https://github.com/bilelmiled/TypeScriptProject" target="_blank" rel="noopener noreferrer">
+                    <img
+                      src="./assets/images/padel.PNG"
+                      alt="Padel Marketplace"
+                    />
+                  </figure>
 
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
+                  <h3 class="project-title">Padel Marketplace</h3>
 
-                  <img src="./assets/images/Typescript.PNG" alt="expense" loading="lazy">
-                </figure>
+                  <p class="project-description">
+                    E-commerce platform for padel products with cart,
+                    authentication, and category filtering.
+                  </p>
 
-                <h3 class="project-title">TypeScript</h3>
+                  <p class="project-tech">
+                    React • Node.js • Express • MongoDB • ContextAPI • RestAPI 
+                  </p>
 
-                <p class="project-category">Web Development</p>
+                  <p class="project-category">Web Development</p>
+                </a>
+              </li>
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web development"
+              >
+                <a
+                  href="https://github.com/bilelmiled/FoodOrderReact"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
 
-              </a>
-            </li>
-             <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="https://github.com/bilelmiled/authReact" target="_blank" rel="noopener noreferrer">
+                    <img
+                      src="./assets/images/Food.PNG"
+                      alt="expense"
+                      loading="lazy"
+                    />
+                  </figure>
 
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
+                  <h3 class="project-title">Food Order</h3>
+                 
 
-                  <img src="./assets/images/auth.PNG" alt="expense" loading="lazy">
-                </figure>
+                  <p class="project-category">Web Development</p>
+                </a>
+              </li>
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web development"
+              >
+                <a
+                  href="https://github.com/bilelmiled/TypeScriptProject"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
 
-                <h3 class="project-title">Practise Auth in React</h3>
+                    <img
+                      src="./assets/images/Typescript.PNG"
+                      alt="expense"
+                      loading="lazy"
+                    />
+                  </figure>
 
-                <p class="project-category">Web Development</p>
+                  <h3 class="project-title">TypeScript</h3>
 
-              </a>
-            </li>
+                  <p class="project-category">Web Development</p>
+                </a>
+              </li>
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web development"
+              >
+                <a
+                  href="https://github.com/bilelmiled/authReact"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
 
-            <li class="project-item  active" data-filter-item data-category="mobile app">
-              <a href="https://github.com/bilelmiled/AppEcommerce" target="_blank" rel="noopener noreferrer">
+                    <img
+                      src="./assets/images/auth.PNG"
+                      alt="expense"
+                      loading="lazy"
+                    />
+                  </figure>
 
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
+                  <h3 class="project-title">Practise Auth in React</h3>
 
-                  <img src="./assets/images/ecommerce.PNG" alt="ecommerce" loading="lazy">
-                </figure>
+                  <p class="project-category">Web Development</p>
+                </a>
+              </li>
 
-                <h3 class="project-title">ecommerce</h3>
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="mobile app"
+              >
+                <a
+                  href="https://github.com/bilelmiled/AppEcommerce"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
 
-                <p class="project-category">Mobile app</p>
+                    <img
+                      src="./assets/images/ecommerce.PNG"
+                      alt="ecommerce"
+                      loading="lazy"
+                    />
+                  </figure>
 
-              </a>
-            </li>
-            
+                  <h3 class="project-title">ecommerce</h3>
 
-            <li class="project-item  active" data-filter-item data-category="mobile app">
-              <a href="https://github.com/bilelmiled/JobGateInternshipFront" target="_blank" rel="noopener noreferrer">
+                  <p class="project-category">Mobile app</p>
+                </a>
+              </li>
 
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="mobile app"
+              >
+                <a
+                  href="https://github.com/bilelmiled/JobGateInternshipFront"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
 
-                  <img src="./assets/images/jobs.PNG" alt="Candidate Management" loading="lazy">
-                </figure>
+                    <img
+                      src="./assets/images/jobs.PNG"
+                      alt="Candidate Management"
+                      loading="lazy"
+                    />
+                  </figure>
 
-                <h3 class="project-title"> Candidate Management</h3>
+                  <h3 class="project-title">Candidate Management</h3>
 
-                <p class="project-category">Mobile app</p>
+                  <p class="project-category">Mobile app</p>
+                </a>
+              </li>
 
-              </a>
-            </li>
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="mobile app"
+              >
+                <a
+                  href="https://github.com/bilelmiled/Meals"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
 
-            <li class="project-item  active" data-filter-item data-category="mobile app">
-              <a href="https://github.com/bilelmiled/Meals" target="_blank" rel="noopener noreferrer">
+                    <img
+                      src="./assets/images/meals.PNG"
+                      alt="meals"
+                      loading="lazy"
+                    />
+                  </figure>
 
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
+                  <h3 class="project-title">Meals recipes</h3>
 
-                  <img src="./assets/images/meals.PNG" alt="meals" loading="lazy">
-                </figure>
+                  <p class="project-category">Mobile app</p>
+                </a>
+              </li>
 
-                <h3 class="project-title">Meals recipes</h3>
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="mobile app"
+              >
+                <a
+                  href="https://github.com/bilelmiled/expense_tracker"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
 
-                <p class="project-category">Mobile app</p>
+                    <img
+                      src="./assets/images/expense.PNG"
+                      alt="expense"
+                      loading="lazy"
+                    />
+                  </figure>
 
-              </a>
-            </li>
+                  <h3 class="project-title">Expense tracker</h3>
 
-            <li class="project-item  active" data-filter-item data-category="mobile app">
-              <a href="https://github.com/bilelmiled/expense_tracker" target="_blank" rel="noopener noreferrer">
+                  <p class="project-category">Mobile app</p>
+                </a>
+              </li>
+            </ul>
+          </section>
+        </article>
 
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/expense.PNG" alt="expense" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Expense tracker</h3>
-
-                <p class="project-category">Mobile app</p>
-
-              </a>
-            </li>
-            
-
-
-           
-
-            
-
-          </ul>
-
-        </section>
-
-      </article>
-
-
-
-
-
-      <!--
+        <!--
         - #BLOG
       -->
 
-      <article class="Credentials" data-page="credentials">
+        <article class="Credentials" data-page="credentials">
+          <header>
+            <h2 class="h2 article-title">Credentials</h2>
+          </header>
 
-        <header>
-          <h2 class="h2 article-title">Credentials</h2>
-        </header>
-
-        <section class="blog-posts">
-
-          <ul class="blog-posts-list">
-
-            <li class="blog-post-item">
-             
-
+          <section class="blog-posts">
+            <ul class="blog-posts-list">
+              <li class="blog-post-item">
                 <figure class="blog-banner-box">
-                  <img src="./assets/images/ReactUdemy.jpg" alt="Design conferences in 2022" loading="lazy">
+                  <img
+                    src="./assets/images/ReactUdemy.jpg"
+                    alt="Design conferences in 2022"
+                    loading="lazy"
+                  />
                 </figure>
 
                 <div class="blog-content">
-
                   <div class="blog-meta">
                     <p class="blog-category">Certificate of completion</p>
 
@@ -830,24 +872,27 @@ Thanks to my experience in game development, I approach applications with a UX-f
                     <time datetime="2022-02-23">FEB, 2026</time>
                   </div>
 
-                  <h3 class="h3 blog-item-title">React - The Complete Guide Course</h3>
+                  <h3 class="h3 blog-item-title">
+                    React - The Complete Guide Course
+                  </h3>
 
                   <p class="blog-text">
-Completed an in-depth training in React.js including Hooks, Context API, and advanced component patterns.                  </p>
-
+                    Completed an in-depth training in React.js including Hooks,
+                    Context API, and advanced component patterns.
+                  </p>
                 </div>
+              </li>
 
-              
-            </li>
-
-            <li class="blog-post-item">
-
+              <li class="blog-post-item">
                 <figure class="blog-banner-box">
-                  <img src="./assets/images/attestation.jpg" alt="Design conferences in 2022" loading="lazy">
+                  <img
+                    src="./assets/images/attestation.jpg"
+                    alt="Design conferences in 2022"
+                    loading="lazy"
+                  />
                 </figure>
 
                 <div class="blog-content">
-
                   <div class="blog-meta">
                     <p class="blog-category">Internship</p>
 
@@ -859,23 +904,23 @@ Completed an in-depth training in React.js including Hooks, Context API, and adv
                   <h3 class="h3 blog-item-title">Flutter developer intern</h3>
 
                   <p class="blog-text">
-                    Developed a candidate management mobile application using Flutter, with a backend built on Express.js and MongoDB, enabling efficient candidate tracking and data management.
+                    Developed a candidate management mobile application using
+                    Flutter, with a backend built on Express.js and MongoDB,
+                    enabling efficient candidate tracking and data management.
                   </p>
-
                 </div>
+              </li>
 
-            
-            </li>
-
-            <li class="blog-post-item">
-              
-
+              <li class="blog-post-item">
                 <figure class="blog-banner-box">
-                  <img src="./assets/images/Udemy.jpg" alt="Best fonts every designer" loading="lazy">
+                  <img
+                    src="./assets/images/Udemy.jpg"
+                    alt="Best fonts every designer"
+                    loading="lazy"
+                  />
                 </figure>
 
                 <div class="blog-content">
-
                   <div class="blog-meta">
                     <p class="blog-category">Certificate of completion</p>
 
@@ -887,23 +932,22 @@ Completed an in-depth training in React.js including Hooks, Context API, and adv
                   <h3 class="h3 blog-item-title">Flutter Udemy course</h3>
 
                   <p class="blog-text">
- Built cross-platform mobile applications using Flutter and Dart. Discovered and applied state management with Riverpod.
+                    Built cross-platform mobile applications using Flutter and
+                    Dart. Discovered and applied state management with Riverpod.
                   </p>
-
                 </div>
+              </li>
 
-           
-            </li>
-
-            <li class="blog-post-item">
-              
-
+              <li class="blog-post-item">
                 <figure class="blog-banner-box">
-                  <img src="./assets/images/flutter.jpg" alt="Design digest #80" loading="lazy">
+                  <img
+                    src="./assets/images/flutter.jpg"
+                    alt="Design digest #80"
+                    loading="lazy"
+                  />
                 </figure>
 
                 <div class="blog-content">
-
                   <div class="blog-meta">
                     <p class="blog-category">Certificate of completion</p>
 
@@ -915,22 +959,23 @@ Completed an in-depth training in React.js including Hooks, Context API, and adv
                   <h3 class="h3 blog-item-title">Flutter Course</h3>
 
                   <p class="blog-text">
-Completed a comprehensive Flutter course, covering UI development, state management, and building cross-platform mobile applications.            </p>
-
+                    Completed a comprehensive Flutter course, covering UI
+                    development, state management, and building cross-platform
+                    mobile applications.
+                  </p>
                 </div>
+              </li>
 
-             
-            </li>
-
-            <li class="blog-post-item">
-              
-
+              <li class="blog-post-item">
                 <figure class="blog-banner-box">
-                  <img src="./assets/images/Node.jpg" alt="UI interactions of the week" loading="lazy">
+                  <img
+                    src="./assets/images/Node.jpg"
+                    alt="UI interactions of the week"
+                    loading="lazy"
+                  />
                 </figure>
 
                 <div class="blog-content">
-
                   <div class="blog-meta">
                     <p class="blog-category">Certificate of completion</p>
 
@@ -942,22 +987,22 @@ Completed a comprehensive Flutter course, covering UI development, state managem
                   <h3 class="h3 blog-item-title">Node.js and Express.js</h3>
 
                   <p class="blog-text">
-Completed a Node.js and Express.js course, focusing on backend development, RESTful APIs, and database integration.                  </p>
-
+                    Completed a Node.js and Express.js course, focusing on
+                    backend development, RESTful APIs, and database integration.
+                  </p>
                 </div>
+              </li>
 
-             
-            </li>
-
-            <li class="blog-post-item">
-              
-
+              <li class="blog-post-item">
                 <figure class="blog-banner-box">
-                  <img src="./assets/images/Bilel.jpg" alt="The forgotten art of spacing" loading="lazy">
+                  <img
+                    src="./assets/images/Bilel.jpg"
+                    alt="The forgotten art of spacing"
+                    loading="lazy"
+                  />
                 </figure>
 
                 <div class="blog-content">
-
                   <div class="blog-meta">
                     <p class="blog-category">Certificate</p>
 
@@ -969,51 +1014,36 @@ Completed a Node.js and Express.js course, focusing on backend development, REST
                   <h3 class="h3 blog-item-title">Coach in Global Game Jam</h3>
 
                   <p class="blog-text">
-Acted as a coach during the Global Game Jam, mentoring teams on game development best practices, problem-solving, and collaborative workflows.                  </p>
-
+                    Acted as a coach during the Global Game Jam, mentoring teams
+                    on game development best practices, problem-solving, and
+                    collaborative workflows.
+                  </p>
                 </div>
+              </li>
+            </ul>
+          </section>
+        </article>
 
-             
-            </li>
-
-            
-
-          </ul>
-
-        </section>
-
-      </article>
-
-
-
-
-
-      <!--
+        <!--
         - #CONTACT
-      -->
+      --></div>
+    </main>
 
-     
-
-    </div>
-
-  </main>
-
-
-
-
-
-
-  <!--
+    <!--
     - custom js link
   -->
-  <script src="./assets/js/script.js"></script>
+    <script src="./assets/js/script.js"></script>
 
-  <!--
+    <!--
     - ionicon link
   -->
-  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-
-</body>
-
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
 </html>

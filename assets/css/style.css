@@ -23,6 +23,7 @@
 
   /* gradient */
 
+
   --bg-gradient-onyx: linear-gradient(
     to bottom right, 
     hsl(240, 1%, 25%) 3%, 
@@ -124,6 +125,29 @@
   padding: 0;
   box-sizing: border-box;
 }
+.project-description {
+  font-size: 0.9rem;
+  color: #ffffff;
+  margin: 8px 0;
+  line-height: 1.5;
+}
+
+.project-tech {
+  font-size: 0.75rem;
+  color: #FFD065; /* couleur accent */
+  margin-bottom: 8px;
+  font-weight: 500;
+}
+/* .project-description,
+.project-tech {
+  color: gray;
+  transition: 0.3s;
+}
+
+.project-item:hover .project-description,
+.project-item:hover .project-tech {
+  color: #ffffff;
+} */
 
 a { text-decoration: none; }
 
